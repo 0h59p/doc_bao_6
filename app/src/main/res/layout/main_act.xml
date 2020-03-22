@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Main"
+    android:weightSum="14"
+
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+
+    >
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="9dp"
+
+        android:src="@drawable/ic_menu_black_24dp"
+
+        >
+
+
+    </ImageView>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginLeft="300dp"
+            android:src="@drawable/ic_brightness_3_black_25dp"
+
+            >
+
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:orientation="horizontal"
+        android:weightSum="60"
+        android:layout_marginBottom="12dp"
+        >
+        <FrameLayout
+            android:layout_weight="29"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+            <ImageButton
+                android:id="@+id/bt1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hai11"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng hợp"
+                android:textSize="20sp"
+
+                android:textColor="#ffffff"
+                >
+
+            </TextView>
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            >
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_weight="29"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            >
+            <ImageButton
+                android:id="@+id/bt2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hai2"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pháp luật"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                >
+
+            </TextView>
+
+        </FrameLayout>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="12dp"
+        >
+        <FrameLayout
+            android:layout_weight="29"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+            <ImageButton
+                android:id="@+id/bt3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hai1"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thể thao"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                >
+
+            </TextView>
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_weight="29"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+            <ImageButton
+                android:id="@+id/bt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hai3"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Làm đẹp"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                >
+
+            </TextView>
+
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+
+        android:layout_marginBottom="12dp"
+        >
+        <FrameLayout
+            android:layout_weight="29"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+            <ImageButton
+                android:id="@+id/bt5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hai4"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ô tô"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                >
+
+            </TextView>
+
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_weight="29"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+            <ImageButton
+                android:id="@+id/bt6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hai5"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Giáo dục"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                >
+
+            </TextView>
+
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="12dp"
+        >
+        <FrameLayout
+            android:layout_weight="29"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+            <ImageButton
+                android:id="@+id/bt7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hai1"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coming soon"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                >
+
+            </TextView>
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+
+        </LinearLayout>
+        <FrameLayout
+            android:layout_weight="29"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            >
+            <ImageButton
+                android:id="@+id/bt8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/hai1"
+
+                >
+
+            </ImageButton>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coming soon"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:textColor="#ffffff"
+                >
+
+            </TextView>
+
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        >
+        <ImageView
+            android:layout_marginRight="80dp"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:src="@drawable/ic_library_books_black_24dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_marginRight="80dp"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:src="@drawable/ic_play_arrow_black_24dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:src="@drawable/ic_settings_black_24dp">
+
+        </ImageView>
+        <ImageView
+            android:layout_marginLeft="80dp"
+            android:layout_width="30dp"
+            android:layout_height="34dp"
+            android:src="@drawable/ic_account_circle_black_24dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
